@@ -12,6 +12,7 @@ import assignroutes1 from "./models/r_aboutus.js"
  import assignroutes8 from "./models/r_contact.js"
  import assignroutes9 from "./models/r_Login.js"
  import assignroutes10 from "./models/r_admin_users.js"
+ import assignroutes11 from "./models/r_register.js"
 //import path from "path";
 
 const app= express()
@@ -28,6 +29,7 @@ app.use("/backend/protfolio",assignroutes7)
 app.use ("/backend/contact",assignroutes8)
 app.use("/backend/Login",assignroutes9)
 app.use("/backend/admin_users",assignroutes10)
+app.use("/backend/Register",assignroutes11)
 
 app.listen(8800,()=>{
     console.log("Connected to Backend1")

@@ -133,6 +133,7 @@ export default function Hiredeveloper() {
         // }
     }
     if (hiredeve_name !="" && hiredeve_description!="" && status !="" && hiredeve_id !=0)
+    
     {
       upload();
     }
