@@ -351,6 +351,7 @@ function App() {
                   <Routes>
                 
                     <Route path='/' element={<Hiredeveloper/>} />
+                    <Route path='/Hiredeveloper/:id' element={<Hiredeveloper/>} />
                     <Route path='/DisplayHiredevelopers' element={<DisplayHiredevelopers/>}/>
                     <Route path='/Service' element={<Service />} />
                     
